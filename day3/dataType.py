@@ -54,3 +54,11 @@ fruit = ('mango', 'banana', 'strawberry')
 '''
 person = {'name' : 'Truyen', 'age' : 21, 'height' : 170 }
 scores = {'math' : 10, 'physic' : 9, 'english' : 9}
+
+
+
+
+
+#       -->     type conversion     <--
+
+
