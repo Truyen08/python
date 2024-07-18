@@ -62,3 +62,31 @@ scores = {'math' : 10, 'physic' : 9, 'english' : 9}
 #       -->     type conversion     <--
 
 
+# 1. implicit type convertion : it means swiching during compilation
+#   or during the runtime 
+
+#eg: 
+a = 5
+b = 6.5
+sum = a + b
+print (sum) #output:  11.5
+print (type(sum))   # output: float
+# -->type funtion is used to display the datatype of a variable
+# --> python always converts smaller datatypes into larger datetypes to prevent the loss of data
+
+
+#2. explicit type convertion
+a1 = 100
+b1 = "200"
+#   total_01 = a1 + b1      # error
+b2 = int(b1)
+total_02 = a1 + b2
+print(total_02)     # output: 300
+
+
+#-->? Summary:
+'''
+    + Implicit type conversion is performed by a Python interpreter only.
+    + explicit ....  ...        is performed by user by  explicitly using type conversion functions
+    + when performing implicit type casting, avoids the loss of data.
+'''
