@@ -49,3 +49,32 @@ square = find_square(3)
 
 print('square', square)
 
+# in this eg, "return" keyword returns a value to the function after the function performs 
+#   a calculation of logic. that value of Function can be stored for future use.
+# !!! --> after 'return' keyword, any code after that not executed
+
+
+# ------------------------
+
+# the pass statement
+# purpose: preventing errors from empty code blocks 
+
+def future_code():
+    pass
+
+future_code()
+
+
+# some python library functions 
+import math # import math moldule
+
+square_root = math.sqrt(9)
+
+print('square root of 9 is', square_root)
+
+power_num = math.pow(2, 3)
+
+print('2 to the power 3 is',power_num)
+
+
+# read more : https://www.programiz.com/python-programming/methods
