@@ -76,7 +76,7 @@ power_num = math.pow(2, 3)
 
 print('2 to the power 3 is',power_num)
 
-
+print('---------------------------')
 # ---------------------
 
 num1 = float(input("nhap so thu nhat: "))
@@ -85,8 +85,9 @@ num2 = float(input("nhap so thu hai: "))
 result_of_sum = sum([num1, num2])   # sum() is used for list or tuple,. you need to add them to the list 
 print("total is: ", result_of_sum)
 
-result_of_sum = sum([num1, num2], 10)   # start the calculation with initial value of 10
+result_02_of_sum = sum([num1, num2], 10)   # start the calculation with initial value of 10
+print('result_02 is :', result_02_of_sum)
 
-
+3
 
 # read more : https://www.programiz.com/python-programming/methods
