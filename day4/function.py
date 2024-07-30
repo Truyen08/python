@@ -50,7 +50,7 @@ square = find_square(3)
 print('square', square)
 
 # in this eg, "return" keyword returns a value to the function after the function performs 
-#   a calculation of logic. that value of Function can be stored for future use.
+#   a calculation or logic. that value of Function can be stored for future use.
 # !!! --> after 'return' keyword, any code after that not executed
 
 
