@@ -66,8 +66,39 @@ def recurs():
     # ...
     recurs()
 
-#and 
 recurs()
 
 '''
 
+# ex: factorial of number (input from user) using recurse
+number = int(input('nhap so nguyen duong :'))
+
+if number < 0:
+    print('invalid number!')
+elif number == 0:
+    print('factorial of', number, 'is', 1)
+else:
+    
+    def factorial(number):
+        if number == 1:
+            return 1
+        else:
+            return(number * factorial(number - 1))
+    
+    total = factorial(number)
+    print('factorial of', number, 'is', total)
+
+
+'''
+logic: 
+eg number = 3
+factorial(3) = 
+3 * fac(2)      -> call fac(2) == 2 * fac(1)
+3 * 2 * fac(1)  -> call fac(1)  ==> number =1 --> return 1
+3 * 2 * 1
+3 * 2
+6 
+
+**: using return function --> store the value of function(x) --> for future use
+
+'''
