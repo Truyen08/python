@@ -37,3 +37,7 @@ my_car = car("blue", 4)     # -> TẠO object tên my_car từ class car
 print("màu xe của tôi là: ", my_car.color)        #truy cập thuộc tính color của object my_car
 
 my_car.start_car()               # -> GỌI phương thức start_car của object my_car
+
+
+
+
