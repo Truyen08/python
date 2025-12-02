@@ -10,6 +10,7 @@ EXPOSE 80
 
 #run docker container in terminal:
 #       "docker run -d -p 8080:80 <tên image>"
+#		"docker run -d -p 8081:80 --name <tên container> <tên image>"
 
 
 #check các container đang chạy:
